@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<head>
+  <title>SURVEY FORM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">SURVEY FORM</h1>
+<p id="description">The below given form is for educational registration</p>
+<form id="survey-form">
+  <textarea>Enter stuff here</textarea>
+  <br>
+  <label id="name-label">Name</label>
+  <input id="name" type="text" for="name" placeholder="name" required>
+  <br>
+  <label id="email-label">Email</label>
+  <input id="email" type="email" for="email" required placeholder="name@domain.site">
+  <br>
+  <label id="number-label">Number</label>
+  <input id="number" type="number" placeholder="+91xxxxxxxxxx" min=1 max=100>
+  <br>
+  <select name="cars" id="dropdown">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br>
+  <p>Select Car Model</p>
+  <input type="radio" name="model" value="suzuki"><label>model x</label>
+  <br>
+  <input type="radio" name="model" value="tata"><label>model y</label>
+  <br>
+  <input type="checkbox" name="accessories" value="value1"><label>Rear View Sensor</label>
+  <input type="checkbox" name="bus" value="value2"><label>Carrier</label>
+  <br>
+  <button id=submit>Submit</button>
+</form>
+</body>
+</HTML>
